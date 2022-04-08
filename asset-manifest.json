@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Uberdar/goit-react-hw-01-components/static/css/main.7acaea2f.css",
+    "main.js": "/Uberdar/goit-react-hw-01-components/static/js/main.e10467f6.js",
+    "index.html": "/Uberdar/goit-react-hw-01-components/index.html",
+    "main.7acaea2f.css.map": "/Uberdar/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
+    "main.e10467f6.js.map": "/Uberdar/goit-react-hw-01-components/static/js/main.e10467f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.e10467f6.js"
+  ]
+}
