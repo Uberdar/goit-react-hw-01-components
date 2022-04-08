@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'; // ES6
+import './UserStyle.css';
 export default function User({
   avatar,
   username,
@@ -18,15 +19,15 @@ export default function User({
       </div>
 
       <ul className="stats">
-        <li>
+        <li className="stats__li">
           <span className="label">Followers</span>
           <span className="quantity">{followers}</span>
         </li>
-        <li>
+        <li className="stats__li">
           <span className="label">Views</span>
           <span className="quantity">{views}</span>
         </li>
-        <li>
+        <li className="stats__li">
           <span className="label">Likes</span>
           <span className="quantity">{likes}</span>
         </li>

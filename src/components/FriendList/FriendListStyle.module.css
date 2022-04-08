@@ -1,0 +1,21 @@
+.friendList {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.friendList li .avatar {
+  width: 35px;
+}
+.isonline {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: rgb(18, 241, 18);
+}
+.isoffline {
+  composes: isonline;
+  background-color: red;
+}

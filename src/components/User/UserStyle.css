@@ -1,0 +1,27 @@
+.profile {
+  margin: 0 auto;
+  border: 2px solid black;
+  width: 400px;
+}
+.description {
+  padding-top: 10px;
+  text-align: center;
+}
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+/* .name .tag .location  */
+.stats {
+  display: flex;
+
+  justify-content: space-evenly;
+  list-style: none;
+  padding-left: 0px;
+}
+.stats__li {
+  display: flex;
+  flex-direction: column;
+}
+/* .label .quantity {
+} */
